@@ -2,12 +2,17 @@
 import './App.css';
 import React from 'react';
 
-import UserData from './Components/UserData';
+
+import Header from './Components/header';
+import Footer from './Components/footer';
+import Note from './Components/note';
 
 function App() {
   return (
     <div>
-     <UserData userName="Dinesh" userEmail="mail.dineshmadusanka@gmail.com"/>
+    <Header />
+    <Note />
+    <Footer />
     </div>
   );
 }
